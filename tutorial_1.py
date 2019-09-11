@@ -39,3 +39,5 @@ def add(x,y):
     result = x + y
     return result
 
+print("실험2의 내용을 마치겠습니다.")
+
