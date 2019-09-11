@@ -16,3 +16,6 @@ for i in range(10):
         continue
     print(i)
 
+print("3")
+print("4")
+print("5")
