@@ -28,3 +28,5 @@ print("Branch")
 
 print("브랜치")
 
+print(cc.LightRed)
+print("총돌의 최소화")
