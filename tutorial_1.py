@@ -32,4 +32,10 @@ print(cc.LightRed)
 print("총돌의 최소화")
 print("Branch Conflicts")
 
+
 print("실험2 내용 추가")
+
+def add(x,y):
+    result = x + y
+    return result
+
