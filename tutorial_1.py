@@ -19,3 +19,4 @@ for i in range(10):
 print("3")
 print("4")
 print("5")
+print("123456")
