@@ -31,3 +31,7 @@ print("브랜치")
 print(cc.LightRed)
 print("총돌의 최소화")
 print("Branch Conflicts")
+
+def add(x,y):
+    result = x + y
+    return result
