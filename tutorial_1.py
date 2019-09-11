@@ -1,3 +1,5 @@
+print("Merge Branch")
+
 from jk_color import color as cc
 print(cc.LightYellow)
 
