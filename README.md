@@ -158,7 +158,7 @@ As Grace Hopper said:
 * 링크와 비슷하지만 앞에 `!`가 붙습니다.
 * 인라인 이미지 \![alt text](/test.png\)
 * 링크 이미지 \![alt text](image_URL\)
-* 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
+* 이미지의 사이즈를 변경하기 위해서는 `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현합니다.
 ### Syntax 마크다운 사용법
 	![alt 토마토](/img/tomato.jpg)
 	![alt Concrete Buildings](https://github.com/jinkyukim-me/open-tutorial/blob/master/img/concrete_building.jpg)
