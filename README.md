@@ -50,12 +50,12 @@ This is an H1
 ===
 This is an H2
 ---
-# This is an H1 
-## This is an H2
-### This is an H3
-#### This is an H4
-##### This is an H5
-###### This is an H6
+# This is an H1 부(parts)에 사용.
+## This is an H2 장(chapters)에 사용.
+### This is an H3 페이지 섹션에 사용.
+#### This is an H4 하위 섹션에 사용.
+##### This is an H5 하위 섹션 아래의 하위 섹션에 사용.
+###### This is an H6 문단에 사용
 
 ## This is an H2 ##
 
@@ -94,9 +94,9 @@ __This will also be bold__
 ## 3. Blockquotes 인용
 * `>`으로 시작하는 텍스트이다.
 * `>`는 3개까지 가능ㅎ다.
-* 1개는 인용문
-* 2개는 인용문 안에 인용문
-* 3개는 인용문 안에 인용문 안에 인용문
+* `1개`는 인용문.
+* `2개`는 인용문 안에 인용문.
+* `3개`는 인용문 안에 인용문 안에 인용문.
 
 ### Syntax 마크다운 사용법
 
@@ -119,7 +119,7 @@ As Grace Hopper said:
 
 ### 4.1. Unordered lists 순서가 없는 목록
 * `*`, `+`, `-` 를 이용해서 순서가 없는 목록을 만든다.
-* 들여쓱를 하면 모양이 바뀐다.
+* 들여쓰기를 하면 모양이 바뀐다.
 
 ### 4.2. Ordered lists 순서가 있는 목록
 * 숫자를 기입하면 순서가 있는 목록이 된다.
@@ -164,11 +164,22 @@ As Grace Hopper said:
        3. Item 3
 
 
-\*literal asterisks\*
 
-### 
-####
-####
+## 5. Backslash Escapes 백슬래쉬 이스케이프
+* 특수문자를 표현할 때, 표시될 문자 앞에 `\`를 넣고 특수문자를 쓰면 된다.
+* 주의할 점은 앞과 뒤에가 형식이 똑같이 백슬래쉬 뒤에 특수문자이다. `감싸는 형태가 아니다.`
+* 백슬래쉬는 아래의 특수문자를 표현할 수 있다.
+* \ backslash, \ backtick, * asterisk, _ underscore, {} curly braces, [] square brackets,
+() parentheses, # hash mark, + plus sign, - minus sign (hyphen), . dot, ! exclamation mark
+
+### Syntax 마크다운 사용법
+	\*literal asterisks\*
+	\#hash mark\#
+	\[squre brackets\]
+### Demonstration 실행결과
+\*literal asterisks\*<br>
+\#hash mark\#<br>
+\[squre brackets\]<br>
 
 
 # 4. 코드 (Code)
