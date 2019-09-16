@@ -119,6 +119,7 @@ Jinkyukim Mail <jinkyukim.dev@gmail.com>
 ## 6.2. 내부 링크 Internal (Anchored) Links
 
 [1. 헤더 Header](#1.-헤더-(header))
+
 [2. 인용문 (Blockquote)](#2.-인용문-(blockquote))
 
 
