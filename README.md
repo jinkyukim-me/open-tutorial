@@ -1,11 +1,7 @@
 # Markdown Syntax 마크다운 작성법
-
-마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. 
-
-README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.
-
-마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
-
+마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다.<br><br> 
+README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.<br><br>
+마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.<br><br>
 존 그루버는 2004년에 문법 면에서 [에런 스워츠](https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0)와
 중대한 협업을 통해 마트다운 언어를 만들었으며, 사람들이 일기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 HTML로 선택적 변환이 가능하다.([John Gruber
 (DaringFireball)](http://daringfireball.net/projects/markdown/syntax).
@@ -30,8 +26,7 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 * H2는 `---`로도 만들 수 있다.
 * 앞과 뒤를 `#`으로 감싸줘도 만들 수 있다.
 
-### Syntax 마크다운 사용법
- 
+### Syntax 마크다운 사용법 
     This is an H1
     ===
     This is an H2
@@ -41,24 +36,21 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
     ### This is an H3
     #### This is an H4
     ##### This is an H5
-    ###### This is an H6    
+    ###### This is an H6   
     ## This is an H2 ##
 
 ### Demonstration 실행결과
-
-This is an H1
+This is an H1<br>
 ===
-This is an H2
+This is an H2<br>
 ---
-# This is an H1 부(parts)에 사용.
-## This is an H2 장(chapters)에 사용.
-### This is an H3 페이지 섹션에 사용.
-#### This is an H4 하위 섹션에 사용.
-##### This is an H5 하위 섹션 아래의 하위 섹션에 사용.
-###### This is an H6 문단에 사용
-
-## This is an H2 ##
-
+# This is an H1; 부(parts)에 사용<br>
+## This is an H2; 장(chapters)에 사용<br>
+### This is an H3; 페이지 섹션에 사용<br>
+#### This is an H4; 하위 섹션에 사용<br>
+##### This is an H5; 하위 섹션 아래의 하위 섹션에 사용<br>
+###### This is an H6; 문단에 사용<br>
+## This is an H2 ##<br>
 
 ## 2. Emphasis 강조
 * 기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트이다.
@@ -67,7 +59,6 @@ This is an H2
 * 이탤릭체와 두껍게를 같이 사용할 수 있다.
 
 ### Syntax 마크다운 사용법
-
       *This text will be italic*
       _This will also be italic_
       **This text will be bold**
@@ -76,20 +67,12 @@ This is an H2
       *You **can** combine them*
 
 ### Demonstration 실행결과
-
-*This text will be italic*
-
-_This will also be italic_
-
-**This text will be bold**
-
-__This will also be bold__
-
-~~This is canceled~~
-
-*You **can** combine them*
-
-
+*This text will be italic*<br>
+_This will also be italic_<br>
+**This text will be bold**<br>
+__This will also be bold__<br>
+~~This is canceled~~<br>
+*You **can** combine them*<br>
 
 ## 3. Blockquotes 인용
 * `>`으로 시작하는 텍스트이다.
