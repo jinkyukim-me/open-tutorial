@@ -178,15 +178,92 @@ My mail <jinkyukim.dev@gmail.com><br>
 	[4. Lists 목록](#4-lists-목록)
 	[5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)
 	[6. Images 이미지](#6-images-이미지)
-	[7. Links (Anchor) 링크](7-links-anchor)
+	[7. Links (Anchor) 링크](7-links-anchor-링크)
 ### Demonstration 실행결과
-[1. Headers 헤더](#1-headers-헤더)
-[2. Emphasis 강조](#2-emphasis-강조)
-[3. Blockquotes 인용](#3-blockquotes-인용)
-[4. Lists 목록](#4-lists-목록)
-[5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)
-[6. Images 이미지](#6-images-이미지)
-[7. Links (Anchor) 링크](7-links-anchor)
+[1. Headers 헤더](#1-headers-헤더)<br>
+[2. Emphasis 강조](#2-emphasis-강조)<br>
+[3. Blockquotes 인용](#3-blockquotes-인용)<br>
+[4. Lists 목록](#4-lists-목록)<br>
+[5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)<br>
+[6. Images 이미지](#6-images-이미지)<br>
+[7. Links (Anchor) 링크](7-links-anchor-링크)<br>
+
+## 8. Fenced Code Blocks 코드 블럭
+* 간단한 인라인 코드는 텍스트를 앞뒤로 \`기호로 감싸면 된다.
+* \`\`\` 혹은 ~~~ 코드.
+* 첫 줄과 마지막 줄에 Back quote ( \` ) 또는 물결( ~ ) 3개 삽입.
+* 코드가 여러 줄인 경우, 줄 앞에 공백 네 칸을 추가하면 된다.
+* \`\`\` 옆에 언어를 지정해주면 syntax color가 적용된다.
+### Syntax 마크다운 사용법
+	```
+	This is code blocks.
+	```
+	~~~
+	This is code blocks.
+	~~~
+		4 spaces 
+	```javascript
+	function test() {
+	 console.log("look ma’, no spaces");
+	}
+	```
+### Demonstration 실행결과
+```
+This is code blocks.
+```
+~~~
+This is code blocks.
+~~~
+	4 spaces
+```javascript
+function test() {
+ console.log("look ma’, no spaces");
+}
+```
+
+## 9. Task Lisk 체크 리스트
+* 줄 앞에 `- [x]`를 써서 완료된 리스트 표시.
+* 줄 앞에 `- [ ]`를 써서 미완료된 리스트 표시.
+* 체크 안에서 강조 외에 여러 기능을 사용할 수 있다.
+### Syntax 마크다운 사용법
+	- [x] this is a complete item
+	- [ ] this is an incomplete item
+	- [x] @mentions, #refs, [links](),
+	**formatting**, and <del>tags</del>
+	supported
+	- [x] list syntax required (any
+	unordered or ordered list
+	supported)
+### Demonstration 실행결과
+- [x] this is a complete item
+- [ ] this is an incomplete item
+- [x] @mentions, #refs, [links](),
+**formatting**, and <del>tags</del>
+supported
+- [x] list syntax required (any
+unordered or ordered list
+supported)
+
+## 10. Table 테이블
+### Syntax 마크다운 사용법
+### Demonstration 실행결과
+
+
+
+
+
+
+
+## 10. Table 테이블
+### Syntax 마크다운 사용법
+### Demonstration 실행결과
+## 10. Table 테이블
+### Syntax 마크다운 사용법
+### Demonstration 실행결과
+## 10. Table 테이블
+### Syntax 마크다운 사용법
+### Demonstration 실행결과
+
 
 # 4. 코드 (Code)
 여기서 부터 코드 블럭:
@@ -263,15 +340,3 @@ Left | Center | Right
 7|8|9
 ```
 
-
-
-## Coding을 잘하고 싶어요
-
-# 9. soqn
-]
-
-
-
-### 
-####
-####
