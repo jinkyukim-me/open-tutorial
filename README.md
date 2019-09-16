@@ -1,18 +1,50 @@
 # Markdown Syntax
+
 Markdown is a way to style text on the web. You control the display of the document.
 
-## Headers
+The markdown grammar that I will use will be my transcription of the
+syntax provided by [John Gruber
+(DaringFireball)](http://daringfireball.net/projects/markdown/syntax).
+
+## Markdown Elements
+
+### Headers
 * #으로 시작하는 텍스트.
 * #은 하나부터 여섯개까지 가능.
 * #이 늘어날때마다 제목의 스케일 낮아짐.
+* H1은 ===로도 만들 수 있음.
+* H2는 ---로도 만들 수 있음.
 
-### Examples
+#### Syntax
+ 
+    This is an H1
+    ===
+
+    This is an H2
+    ---
+
+    # This is a H1 
+    ## This is a H2
+    ### This is a H3
+    #### This is a H4
+    ##### This is a H5
+    ###### This is a H6
+
+##### Demonstration
+
+This is an H1
+===
+This is an H2
+---
 # This is a H1 
 ## This is a H2
 ### This is a H3
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
+
+
+
 
 ## Emphasis
 
