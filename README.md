@@ -22,6 +22,14 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 [5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)<br>
 [6. Images 이미지](#6-images-이미지)<br>
 [7. Links (Anchor) 링크](7-links-anchor-링크)<br>
+[8. Fenced Code Blocks 코드 블럭](8-fenced-code-blocks-코드-블럭)<br>
+[9. Task Lisk 체크 리스트](9-task-lisk-체크-리스트)<br>
+[10. Horizontal Rules 수평선](10-horizontal-rules-수평선)<br>
+[11. Emoji 이모티콘](11-emoji-이모티콘)<br>
+[12. Table 테이블](12-table-테이블)<br>
+[13. Line Breaks 줄바꿈](13-line-breaks-줄바꿈)<br>
+[14. Reference 참고 링크](14-reference-참고-링크)<br>
+
 ## 1. Headers 헤더
 * `#`으로 시작하는 텍스트.
 * `#`은 하나부터 여섯개까지 가능.
@@ -274,7 +282,7 @@ GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat: 
 
-## 11. Table 테이블
+## 12. Table 테이블
 * 헤더와 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요합니다.
 * 헤더 셀을 구분하면서 :(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있습니다.
 * 가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능합니다.
@@ -313,20 +321,24 @@ Left|Center|Right
 4|5|6
 7|8|9
 
-## 12. Line Breaks 줄바꿈
+## 13. Line Breaks 줄바꿈
 * `<br>`를 활용해서 줄바꿈을 할 수 있습니다.
 ### Syntax 마크다운 사용법
-	동해물과 백두산이 마르고 닳도록 
-	하느님이 보우하사 우리나라 만세<br>
-	무궁화 삼천리 화려 강산<br>
-	대한 사람 대한으로 길이 보전하세
+	Oh my my my oh my my my
+	You got me high so fast <br>
+	네 전부를 함께하고 싶어
+	Oh my my my oh my my my <br>
+	You got me fly so fast
+	이제 조금은 나 알겠어 <br>
 ### Demonstration 실행결과
-동해물과 백두산이 마르고 닳도록 
-하느님이 보우하사 우리나라 만세<br>
-무궁화 삼천리 화려 강산<br>
-대한 사람 대한으로 길이 보전하세
+Oh my my my oh my my my
+You got me high so fast <br>
+네 전부를 함께하고 싶어
+Oh my my my oh my my my <br>
+You got me fly so fast
+이제 조금은 나 알겠어 <br>
 
-## Reference 참고 링크
+## 14. Reference 참고 링크
 * [Matering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [마크다운 위키백과](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 * [존 그루버의 웹사이트](https://daringfireball.net/projects/markdown/)
