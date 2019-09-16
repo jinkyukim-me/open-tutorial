@@ -22,7 +22,7 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 
 # Markdown Elements
 
-## Headers 헤더
+## 1. Headers 헤더
 * `#`으로 시작하는 텍스트이다.
 * `#`은 하나부터 여섯개까지 가능하다.
 * `#`이 늘어날때마다 제목의 스케일 낮아진다.
@@ -60,7 +60,7 @@ This is an H2
 ## This is an H2 ##
 
 
-## Emphasis 강조
+## 2. Emphasis 강조
 * 기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트이다.
 * 두껍게 쓰기(bold) : `**` 또는 `__`로 감싼 텍스트이다.
 * 취소선 : `~~`로 감싼 텍스트이다.
@@ -91,7 +91,7 @@ __This will also be bold__
 
 
 
-## Blockquotes 인용
+## 3. Blockquotes 인용
 * `>`으로 시작하는 텍스트이다.
 * `>`는 3개까지 가능ㅎ다.
 * 1개는 인용문
@@ -115,13 +115,13 @@ As Grace Hopper said:
 > > This is a second blockquote.
 > > > This is a third blockquote.
 
-## Lists 목록
+## 4. Lists 목록
 
-### Unordered lists 순서가 없는 목록
+### 4.1. Unordered lists 순서가 없는 목록
 * `*`, `+`, `-` 를 이용해서 순서가 없는 목록을 만든다.
 * 들여쓱를 하면 모양이 바뀐다.
 
-### Ordered lists 순서가 있는 목록
+### 4.2. Ordered lists 순서가 있는 목록
 * 숫자를 기입하면 순서가 있는 목록이 된다.
 * 들여쓰기를 하면 모양이 바뀐다.
 
