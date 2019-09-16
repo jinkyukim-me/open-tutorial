@@ -1,5 +1,4 @@
-
-# 1. 헤더 (header)
+# 헤더 (header)
 ## 개발을 하고 싶어요
 # This is a H1 
 ## This is a H2
@@ -117,13 +116,15 @@ Jinkyukim Mail <jinkyukim.dev@gmail.com>
 
 
 ## 6.2. 내부 링크 Internal (Anchored) Links
+목차
 
-[1. 헤더 Header](#1.-헤더-(header))
+[1. 헤더 (header)](#헤더-(header))
 
 [2. 인용문 (Blockquote)](#2.-인용문-(blockquote))
 
 목차
 [1.개발을 하고 싶어요](#개발을-하고-싶어요)
+
 [2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
 
 
