@@ -1,4 +1,5 @@
-# 1. 헤더 (Header)
+
+# 1. 헤더 (header)
 
 # This is a H1 
 ## This is a H2
@@ -88,11 +89,113 @@
 
 # 6. 링크 (Anchor)
 ## 6.1. 외부 링크 External Links
+
 ```
 [링크](http://example.com "링크 제목") 인라인 링크
 [링크1][1] [1]: http://example1.com/ "링크제목1" 참조 링크
 <example.com/> <example@example.com> url 링크
 ```
 
+```
+[Google](http://www.google.com "구글")
+[Naver](http://www.naver.com "네이버")
+[Github](http://www.github.com "깃허브")
+```
+[Google](http://www.google.com "구글")
+
+[Naver](http://www.naver.com "네이버")
+
+[Github](http://www.github.com "깃허브")
+
+구글 <www.google.com>
+
+네이버 <www.naver.com>
+
+깃허브 <www.github.com>
+
+Jinkyukim Mail <jinkyukim.dev@gmail.com>
 
 
+## 6.2. 내부 링크 Internal (Anchored) Links
+
+[1. 헤더 Header](#1.-헤더-(header))
+[2. 인용문 (Blockquote)](#2.-인용문-(blockquote))
+
+
+
+
+
+# 7. 테이블 Tables
+
+테이블 생성
+
+Header1|Header2
+---|---
+Content1|Content2
+Content3|Content4
+Content5|Content6
+Content7|Content8
+
+
+```
+테이블 생성
+Header 1 | Header 2
+---|---
+Content 1 | Content 3
+Content 2 | Content 4
+```
+
+테이블 정렬
+
+Header 1 | Header 2 | Header 3
+:--- | :---: | ---: 
+Left | Center | Right 
+1|2|3
+4|5|6
+7|8|9
+
+
+```
+테이블 정렬
+Header 1 | Header 2 | Header 3 
+| :--- | :---: | ---: |
+Left | Center | Right 
+1|2|3
+4|5|6
+7|8|9
+```
+
+
+# 8. 이미지 Adding Images
+
+## 8.1. 인라인 이미지
+
+![alt 토마토](/img/tomato.jpg)
+
+```
+인라인 이미지 
+![alt text](/test.png )
+```
+
+## 8.2. 링크 이미지
+
+![alt Concrete Buildings](https://github.com/jinkyukim-me/open-tutorial/blob/master/img/concrete_building.jpg)
+```
+링크 이미지
+![alt text](image_URL)
+```
+
+## 8.3. 참조 이미지
+
+![alt Man][1]
+
+[1]: img/man_laptop.jpg
+
+```
+참조 이미지
+![alt text][1]
+[1]: /test.png
+```
+
+
+# 9. soqn
