@@ -325,9 +325,8 @@ Left|Center|Right
 하느님이 보우하사 우리나라 만세<br>
 무궁화 삼천리 화려 강산<br>
 대한 사람 대한으로 길이 보전하세
-## 10. Table 테이블
-### Syntax 마크다운 사용법
-### Demonstration 실행결과## 10. Table 테이블
-### Syntax 마크다운 사용법
-### Demonstration 실행결과
 
+## Reference 참고 링크
+* [Matering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [마크다운 위키백과](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
+* [존 그루버의 웹사이트](https://daringfireball.net/projects/markdown/)
