@@ -150,6 +150,7 @@ As Grace Hopper said:
 * 링크와 비슷하지만 앞에 `!`가 붙습니다.
 * 인라인 이미지 \![alt text](/test.png\)
 * 링크 이미지 \![alt text](image_URL\)
+* 이미지의 사이즈를 변경하기 위해서는 <img width="OOOpx" height="OOOpx"></img>와 같이 표현합니다.
 ### Syntax 마크다운 사용법
 	![alt 토마토](/img/tomato.jpg)
 	![alt Concrete Buildings](https://github.com/jinkyukim-me/open-tutorial/blob/master/img/concrete_building.jpg)
@@ -275,20 +276,20 @@ GitHub supports emoji!
 
 ## 11. Table 테이블
 * 헤더와 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요합니다.
-
+* 헤더 셀을 구분하면서 :(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있습니다.
+* 가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능합니다.
 ### Syntax 마크다운 사용법
 	테이블 생성
-	
-	Header1|Header2
-	---|---
-	Content1|Content2
-	Content3|Content4
-	Content5|Content6
-	Content7|Content8
-	
+
+	헤더1|헤더2|헤더3|헤더4
+	---|---|---|---
+	셀1|셀2|셀3|셀4
+	셀5|셀6|셀7|셀8
+	셀9|셀10|셀11|셀12
+
 	테이블 정렬
-	
-	Header 1|Header 2|Header 3
+
+	헤더1|헤더2|헤더3
 	:---|:---:|---: 
 	Left|Center|Right 
 	1|2|3
@@ -297,70 +298,36 @@ GitHub supports emoji!
 ### Demonstration 실행결과
 테이블 생성
 
-Header1|Header2
----|---
-Content1|Content2
-Content3|Content4
-Content5|Content6
-Content7|Content8
+헤더1|헤더2|헤더3|헤더4
+---|---|---|---
+셀1|셀2|셀3|셀4
+셀5|셀6|셀7|셀8
+셀9|셀10|셀11|셀12
 
 테이블 정렬
 
-Header 1|Header 2|Header 3
+헤더1|헤더2|헤더3
 :---|:---:|---: 
 Left|Center|Right 
 1|2|3
 4|5|6
 7|8|9
 
-
+## 12. Line Breaks 줄바꿈
+* `<br>`를 활용해서 줄바꿈을 할 수 있습니다.
+### Syntax 마크다운 사용법
+	동해물과 백두산이 마르고 닳도록 
+	하느님이 보우하사 우리나라 만세<br>
+	무궁화 삼천리 화려 강산<br>
+	대한 사람 대한으로 길이 보전하세
+### Demonstration 실행결과
+동해물과 백두산이 마르고 닳도록 
+하느님이 보우하사 우리나라 만세<br>
+무궁화 삼천리 화려 강산<br>
+대한 사람 대한으로 길이 보전하세
 ## 10. Table 테이블
 ### Syntax 마크다운 사용법
+### Demonstration 실행결과## 10. Table 테이블
+### Syntax 마크다운 사용법
 ### Demonstration 실행결과
-
-
-
-
-
-
-
-# 7. 테이블 Tables
-
-테이블 생성
-
-Header1|Header2
----|---
-Content1|Content2
-Content3|Content4
-Content5|Content6
-Content7|Content8
-
-
-```
-테이블 생성
-Header 1 | Header 2
----|---
-Content 1 | Content 3
-Content 2 | Content 4
-```
-
-테이블 정렬
-
-Header 1 | Header 2 | Header 3
-:--- | :---: | ---: 
-Left | Center | Right 
-1|2|3
-4|5|6
-7|8|9
-
-
-```
-테이블 정렬
-Header 1 | Header 2 | Header 3 
-| :--- | :---: | ---: |
-Left | Center | Right 
-1|2|3
-4|5|6
-7|8|9
-```
 
