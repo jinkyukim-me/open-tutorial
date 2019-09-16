@@ -21,14 +21,14 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 [4. Lists 목록](#4-lists-목록)<br>
 [5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)<br>
 [6. Images 이미지](#6-images-이미지)<br>
-[7. Links (Anchor) 링크](7-links-anchor-링크)<br>
-[8. Fenced Code Blocks 코드 블럭](8-fenced-code-blocks-코드-블럭)<br>
-[9. Task Lisk 체크 리스트](9-task-lisk-체크-리스트)<br>
-[10. Horizontal Rules 수평선](10-horizontal-rules-수평선)<br>
-[11. Emoji 이모티콘](11-emoji-이모티콘)<br>
-[12. Table 테이블](12-table-테이블)<br>
-[13. Line Breaks 줄바꿈](13-line-breaks-줄바꿈)<br>
-[14. Reference 참고 링크](14-reference-참고-링크)<br>
+[7. Links (Anchor) 링크](#7-links-anchor-링크)<br>
+[8. Fenced Code Blocks 코드 블럭](#8-fenced-code-blocks-코드-블럭)<br>
+[9. Task Lisk 체크 리스트](#9-task-lisk-체크-리스트)<br>
+[10. Horizontal Rules 수평선](#10-horizontal-rules-수평선)<br>
+[11. Emoji 이모티콘](#11-emoji-이모티콘)<br>
+[12. Table 테이블](#12-table-테이블)<br>
+[13. Line Breaks 줄바꿈](#13-line-breaks-줄바꿈)<br>
+[14. Reference 참고 링크](#14-reference-참고-링크)<br>
 
 ## 1. Headers 헤더
 * `#`으로 시작하는 텍스트.
