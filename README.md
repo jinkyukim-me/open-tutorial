@@ -1,20 +1,21 @@
-# markdown syntax
-Markdown is a way to style text on the web. 
+# Markdown Syntax
+Markdown is a way to style text on the web. You control the display of the document.
 
-You control the display of the document; formating words as
-bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly,
-Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+## Headers
+* #으로 시작하는 텍스트.
+* #은 하나부터 여섯개까지 가능.
+* #이 늘어날때마다 제목의 스케일 낮아짐.
 
-
-
-# 헤더 (header)
-## 개발을 하고 싶어요
+### Examples
 # This is a H1 
 ## This is a H2
 ### This is a H3
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
+
+## Emphasis
+
 
 > 제목 Headers 
 #으로 시작하는 텍스트.
