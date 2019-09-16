@@ -174,7 +174,7 @@ My mail <jinkyukim.dev@gmail.com><br>
 ### Syntax 마크다운 사용법
 
 ### Demonstration 실행결과
-[1. 헤더](#1.-headers-헤더)
+[1. 헤더](#1-headers-헤더)
 
 
 # 4. 코드 (Code)
