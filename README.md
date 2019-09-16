@@ -1,19 +1,24 @@
-# Markdown Syntax
+# Markdown Syntax 마크다운 작성법
 
-Markdown is a way to style text on the web. You control the display of the document.
+마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. 
 
-The markdown grammar that I will use will be my transcription of the
-syntax provided by [John Gruber
+README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.
+
+마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.
+
+존 그루버는 2004년에 문법 면에서 [에런 스워츠](https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0)와
+중대한 협업을 통해 마트다운 언어를 만들었으며, 사람들이 일기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 HTML로 선택적 변환이 가능하다.([John Gruber
 (DaringFireball)](http://daringfireball.net/projects/markdown/syntax).
 
 ## Markdown Elements
 
-### Headers
-* #으로 시작하는 텍스트.
-* #은 하나부터 여섯개까지 가능.
-* #이 늘어날때마다 제목의 스케일 낮아짐.
-* H1은 ===로도 만들 수 있음.
-* H2는 ---로도 만들 수 있음.
+### Headers 헤더
+* `#`으로 시작하는 텍스트이다.
+* `#`은 하나부터 여섯개까지 가능하다.
+* `#`이 늘어날때마다 제목의 스케일 낮아진다.
+* H1은 `===`로도 만들 수 있다.
+* H2는 `---`로도 만들 수 있다.
+* 앞과 뒤를 `#`으로 감싸줘도 만들 수 있다.
 
 #### Syntax
  
@@ -23,30 +28,63 @@ syntax provided by [John Gruber
     This is an H2
     ---
 
-    # This is a H1 
-    ## This is a H2
-    ### This is a H3
-    #### This is a H4
-    ##### This is a H5
-    ###### This is a H6
+    # This is an H1 
+    ## This is an H2
+    ### This is an H3
+    #### This is an H4
+    ##### This is an H5
+    ###### This is an H6
+    
+    ## This is an H2 ##
 
-##### Demonstration
+#### Demonstration
 
 This is an H1
 ===
 This is an H2
 ---
-# This is a H1 
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+# This is an H1 
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+
+## This is an H2 ##
+
+
+### Emphasis 강조
+* 기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트
+* 굵게쓰기(bold) : `**` 또는 `__`로 감싼 텍스트
+
+#### Syntax
+
+      *This text will be italic*
+      _This will also be italic_
+      **This text will be bold**
+      __This will also be bold__
+      *You **can** combine them*
+
+#### Demonstration
+
+*This text will be italic*
+
+_This will also be italic_
+
+**This text will be bold**
+
+__This will also be bold__
+
+*You **can** combine them*
 
 
 
+### Blockquotes
 
-## Emphasis
+#### Syntax
+
+#### Demonstration
+
 
 
 > 제목 Headers 
