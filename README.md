@@ -172,7 +172,13 @@ My mail <jinkyukim.dev@gmail.com><br>
 	[보여지는 내용](#이동할 헤드(제목))
 	괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 ### Syntax 마크다운 사용법
-
+	[1. Headers 헤더](#1-headers-헤더)
+	[2. Emphasis 강조](#2-emphasis-강조)
+	[3. Blockquotes 인용](#3-blockquotes-인용)
+	[4. Lists 목록](#4-lists-목록)
+	[5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)
+	[6. Images 이미지](#6-images-이미지)
+	[7. Links (Anchor) 링크](7-links-anchor)
 ### Demonstration 실행결과
 [1. Headers 헤더](#1-headers-헤더)
 [2. Emphasis 강조](#2-emphasis-강조)
@@ -180,7 +186,7 @@ My mail <jinkyukim.dev@gmail.com><br>
 [4. Lists 목록](#4-lists-목록)
 [5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)
 [6. Images 이미지](#6-images-이미지)
-[7. Links (Anchor) 링크](7-links-(anchor))
+[7. Links (Anchor) 링크](7-links-anchor)
 
 # 4. 코드 (Code)
 여기서 부터 코드 블럭:
