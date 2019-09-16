@@ -244,10 +244,21 @@ supported
 unordered or ordered list
 supported)
 
-## 10. Table 테이블
+## 10. Horizontal Rules 수평선
+* \- 또는 * 또는 _ 을 3개 이상 작성.
+* 단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워두어야한다.
 ### Syntax 마크다운 사용법
+	* * *
+	***
+	*****
+	- - -
+	-------------------
 ### Demonstration 실행결과
-
+* * *
+***
+*****
+- - -
+-------------------
 
 
 
