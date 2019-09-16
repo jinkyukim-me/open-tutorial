@@ -153,14 +153,13 @@ As Grace Hopper said:
 ## 7. Links (Anchor) 링크
 ## 7.1. External Links 외부 링크 
 	인라인 링크: [링크](http://example.com "링크 제목")
-	url 링크: <example.com/>, <example@example.com> 
+	url 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
 ### Syntax 마크다운 사용법
 	[Google](http://www.google.com "구글")
 	[Naver](http://www.naver.com "네이버")
 	[Github](http://www.github.com "깃허브")
-	구글 <www.google.com> 
-	네이버 <www.naver.com> 
-	깃허브 <www.github.com> 
+	구글 www.google.com; 꺽쇠없음 
+	네이버 <www.naver.com>; 꺽쇠있음 
 	My mail <jinkyukim.dev@gmail.com>
 ### Demonstration 실행결과
 [Google](http://www.google.com "구글")<br>
@@ -168,19 +167,15 @@ As Grace Hopper said:
 [Github](http://www.github.com "깃허브")<br>
 구글 www.google.com <br>
 네이버 <www.naver.com> <br>
-깃허브 <www.github.com> <br>
 My mail <jinkyukim.dev@gmail.com><br>
 ## 7.2. Internal Links 내부 링크 
-목차
+	[보여지는 내용](#이동할 헤드(제목))
+	괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
+### Syntax 마크다운 사용법
 
-[1. 헤더 (header)](#헤더-(header))
+### Demonstration 실행결과
+[1. 헤더](#1.-headers-헤더)
 
-[2. 인용문 (Blockquote)](#2.-인용문-(blockquote))
-
-목차
-[1.개발을 하고 싶어요](#개발을-하고-싶어요)
-
-[2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
 
 # 4. 코드 (Code)
 여기서 부터 코드 블럭:
